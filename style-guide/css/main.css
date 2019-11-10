@@ -1,0 +1,86 @@
+body, ul {
+    margin:0;
+    font-family: 'Arial', sans-serif;
+  }
+  header{
+    height:75px;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+  }
+  
+  header > nav > ul > li {
+    text-decoration:none;
+    list-style-type:none;
+    display:inline;
+    width:100px;
+  
+    padding:50px;
+    line-height:75px;
+    
+  } 
+  
+  header > nav > ul > li > a {
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    width:100px;
+    text-align:center;
+    
+  } 
+  
+  header > nav > ul > li > a:hover {
+    display:inline-block;
+    color:white;
+    text-decoration:underline;
+    background-color:grey;
+    width:100px;
+    text-align:center;
+  } 
+  
+  
+  .logo-spacer {
+    flex-grow:1;
+  }
+  
+  
+      .fas, .fa-bars {
+      color:white;
+      margin-top:25px;
+      margin-right:25px;
+      display:none;
+    }
+  
+  /* Create Media Query for browser width */
+  
+  @media screen and(min-width: 660px)
+  {
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    #dsk-nav{
+      display:none;
+    }
+        .fas, .fa-bars {
+      color:white;
+      margin-top:25px;
+      margin-right:25px;
+      display:block;
+    }
+}
+  
+    .logo {
+      display: inline-block;
+      vertical-align: top;
+      height: 56px;
+      width: 47px;
+      margin-left: 20px;
+      margin-top: 10px;
+      float: left;
+      margin-left: 7%;}
+
+      
+      
